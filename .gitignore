@@ -1,0 +1,47 @@
+# ---------- User uploads (real people's photos) ----------
+# Ignore everything inside uploads/ except the files needed to run the app
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+!uploads/default.jpg
+
+# ---------- Secrets and local config ----------
+.env
+.env.*
+config.local.php
+*.pem
+*.key
+
+# ---------- Database dumps with real data ----------
+# (database.sql is kept because it only has the empty schema)
+*.sql.bak
+*.dump
+backup*.sql
+*_backup.sql
+export*.sql
+
+# ---------- Logs and temporary files ----------
+*.log
+error_log
+php_errors.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# ---------- Dependencies and build folders ----------
+vendor/
+node_modules/
+
+# ---------- Editor and IDE files ----------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.phpintel/
+
+# ---------- Operating system files ----------
+.DS_Store
+Thumbs.db
+desktop.ini

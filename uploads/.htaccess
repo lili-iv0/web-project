@@ -1,0 +1,4 @@
+# Uploaded files must never be executed as code
+php_flag engine off
+RemoveHandler .php .phtml .php3 .php4 .php5 .php7 .phps
+Options -ExecCGI -Indexes

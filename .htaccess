@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^hi$ student-post-test.php [L]
+RewriteRule ^$ login.php [L]
+Options -Indexes
