@@ -1,9 +1,3 @@
--- Fitness Tracker schema (reconstructed from the code) + a starter admin account.
--- Import into MySQL/MariaDB (phpMyAdmin > Import). Safe to run on an existing DB:
--- it only creates what's missing.
-CREATE DATABASE IF NOT EXISTS `users` CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `users`;
-
 CREATE TABLE IF NOT EXISTS sections (
   id INT AUTO_INCREMENT PRIMARY KEY,
   section_code VARCHAR(50) NOT NULL UNIQUE
